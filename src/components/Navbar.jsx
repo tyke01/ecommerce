@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex-1 flex items-center">
           <div className=" text-base cursor-pointer">EN</div>
           <div className="border border-gray-300 flex items-center ml-6 ">
-            <input type="text" className="outline-none p-1" />
+            <input type="text" className="outline-none p-1" placeholder="Search"/>
             <span className="bg-gray-200 p-1 text-gray-500">
               <Search />
             </span>

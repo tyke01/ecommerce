@@ -15,7 +15,7 @@ const Slider = () => {
   };
 
   return (
-    <main className="relative">
+    <main className="relative h-screen w-full">
       <div
         className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center absolute top-0 bottom-0 m-auto left-3 cursor-pointer opacity-80 hover:bg-gray-300 arrow"
         onClick={() => handleClick("left")}

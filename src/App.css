@@ -1,3 +1,18 @@
 .arrow{
     @apply z-40
 }
+.icon{
+    @apply w-10 h-10 rounded-full bg-white flex items-center justify-center m-3 hover:bg-[#e9f5f5] cursor-pointer hover:scale-105
+}
+.social-icon {
+    @apply w-10 h-10 rounded-full text-white flex items-center justify-center
+}
+.list-item {
+    @apply w-1/2 mb-2 cursor-pointer hover:text-gray-600
+}
+.contact-item{
+    @apply mb-4 cursor-pointer flex items-center gap-4
+}
+.filter{
+    @apply m-5
+}
