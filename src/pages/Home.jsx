@@ -1,5 +1,4 @@
 //
-
 import {
   Announcement,
   Categories,
@@ -12,7 +11,7 @@ import {
 
 const Home = () => {
   return (
-    <div>
+    <main className="w-full">
       <Announcement />
 
       <Navbar />
@@ -20,13 +19,13 @@ const Home = () => {
       <Slider />
 
       <Categories />
-      
+
       <Products />
 
       <Newsletter />
 
       <Footer />
-    </div>
+    </main>
   );
 };
 

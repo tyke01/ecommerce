@@ -1,15 +1,15 @@
 
 import './App.css'
-import { ProductList} from "./pages"
+import { Register } from "./pages"
 
 function App() {
 
   return (
-    <main>
+    <main className='w-full'>
 
-      <ProductList />
+      <Register />
     </main>
   )
 }
 
-export default App
+export default App;

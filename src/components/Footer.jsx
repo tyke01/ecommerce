@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="flex">
+    <footer className="flex flex-col mb-8 md:flex-row">
       <div className="flex-1 flex flex-col p-5">
         <h1 className="text-4xl font-bold">TREK.</h1>
         <p className="my-5">
